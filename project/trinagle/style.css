@@ -1,0 +1,90 @@
+/* Default Light Theme */
+body {
+    font-family: Arial, sans-serif;
+   
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: #003366;
+  }
+  
+  input {
+    padding: 7px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+
+  
+  button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  #light, #dark {
+    padding: 8px 16px;
+    margin: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #light {
+    background-color: #f9f9f9;
+    color: #003366;
+  }
+  
+  #dark {
+    background-color: #333;
+    color: white;
+  }
+  
+ 
+  body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  
+  body.dark-mode input {
+    background-color: #555;
+    color: #f4f4f4;
+    border-color: #ccc;
+  }
+  
+  body.dark-mode button {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+ 
+  body.dark-mode #light {
+    background-color: #003366;
+    color: white;
+  }
+  
+  body.dark-mode #dark {
+    background-color: #f9f9f9;
+    color: #003366;
+  }
+  
