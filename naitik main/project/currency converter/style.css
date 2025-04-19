@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .currency, .select, .btn {
+    padding: 7px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+  }
+  
+  .currency {
+    width: 150px;
+  }
+  
+  .select {
+    width: 150px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 70px;
+  }
+  
+  .btn:hover {
+    background-color: #4585a0;
+  }
+  
+  .out {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  

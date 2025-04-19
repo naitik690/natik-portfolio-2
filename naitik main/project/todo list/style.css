@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .todo-container {
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #003366; /* Dark blue for the title */
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #003366; /* Dark blue border on focus */
+  }
+  
+  button {
+    padding: 10px 20px;
+    
+    background-color: #003366; /* Dark blue button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #001f33; /* Darker blue on hover */
+  }
